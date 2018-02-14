@@ -1,0 +1,100 @@
+.navcolor {
+  background-color: #2C7DC9;
+}
+
+nav {
+  padding-right: 0px !important;
+}
+.navbar-brand img {
+  width: 10vw;
+}
+
+.social-icons {
+  width: 300px;
+  height: 60px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: white;
+}
+
+.social-icons img {
+  padding: 5px;
+  height: 60px;
+  max-width: 100%;
+}
+
+.boxRow {
+  padding-top: 30px;
+}
+
+.boxChoice img {
+  text-align: center;
+  box-shadow: 0px 0px 10px 1px #2b2c2d;
+  border: 3px solid #2C7DC9;
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+}
+
+.boxChoice img:hover {
+  cursor: pointer;
+  border-color: red;
+}
+
+p {
+  color: #2C7DC9;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.item-title {
+  padding: 20px 0px;
+  text-align: center;
+  color: #2C7DC9;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.choice-image img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.choice-text h1 {
+  color: #2C7DC9;
+  text-align: left;
+  font-weight: bold;
+}
+
+.choice-text p {
+  color: #2C7DC9;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.shop-button {
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background-color: #EA7601;
+}
+
+.shop-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.arrow-button {
+  background-color: white;
+  color: #2C7DC9;
+  transition: all .4s ease-in-out;
+}
+
+.arrow-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
